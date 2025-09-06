@@ -7,18 +7,25 @@
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family: Arial, sans-serif; background:#111; color:#fff; line-height:1.5; text-align:center; }
-header { background: linear-gradient(120deg, #ff0000, #990033, #ff3366); text-align:center; padding:80px 20px; overflow:hidden; position:relative; }
+
+/* Header */
+header { background: linear-gradient(120deg, #ff0000, #990033, #ff3366); text-align:center; padding:80px 20px; position:relative; overflow:hidden; }
 header h1 { font-size:4rem; color:#fff; text-shadow:2px 2px 10px rgba(0,0,0,0.7); margin-bottom:20px; }
 header p { font-size:1.5rem; margin-bottom:30px; }
 header .btn { padding:15px 35px; background:#ff0000; color:#fff; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 5px 15px rgba(255,0,0,0.5); transition:0.3s; }
 header .btn:hover { transform:scale(1.1); box-shadow:0 8px 25px rgba(255,0,0,0.7); }
+
+/* Header Animations */
 @keyframes fadeIn { 0%{opacity:0;} 100%{opacity:1;} }
 .ani-start, .ani-middle, .ani-end { position:absolute; width:50px; height:50px; border-radius:50%; background:rgba(255,255,255,0.3); animation:fadeIn 2s infinite alternate; }
 .ani-start { top:10px; left:10px; }
 .ani-middle { top:50%; left:50%; transform:translate(-50%, -50%); animation-delay:1s; }
 .ani-end { bottom:10px; right:10px; animation-delay:2s; }
 
+/* Section Titles */
 section h2 { font-size:2.8rem; margin:0 auto 60px auto; max-width:1200px; color:#ff3366; text-shadow:1px 1px 5px rgba(0,0,0,0.7); }
+
+/* Video Grid */
 .video-section { padding:100px 20px 60px 20px; background:#1a1a1a; display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:20px; justify-items:center; }
 .video-card { background:#222; padding:10px; border-radius:15px; box-shadow:0 8px 20px rgba(255,0,0,0.3); transition:0.3s; width:100%; max-width:220px; text-align:center; }
 .video-card:hover { transform:scale(1.02); box-shadow:0 12px 30px rgba(255,0,0,0.5); }
@@ -26,10 +33,16 @@ section h2 { font-size:2.8rem; margin:0 auto 60px auto; max-width:1200px; color:
 .video-card img, .video-card video { width:100%; aspect-ratio:9/16; border-radius:12px; margin-bottom:10px; object-fit:cover; }
 .video-card .btn { display:inline-block; padding:8px 15px; background:#ff0000; border-radius:10px; text-decoration:none; font-weight:bold; box-shadow:0 5px 15px rgba(255,0,0,0.4); transition:0.3s; font-size:0.9rem; }
 .video-card .btn:hover { transform:scale(1.05); box-shadow:0 10px 25px rgba(255,0,0,0.6); }
+
+/* Footer */
 footer { background:#111; padding:30px 20px; font-size:0.9rem; color:#fff; }
-footer a { color:#ff0000; text-decoration:none; margin:0 5px; }
+footer a { color:#ff0000; text-decoration:none; margin:0 5px; display:inline-block; }
+
+/* Direct Links Section */
 #links p a { color:#ff0000; text-decoration:none; display:inline-block; margin:5px 0; padding:8px 15px; border-radius:8px; background:#222; box-shadow:0 5px 15px rgba(255,0,0,0.4); transition:0.3s; }
 #links p a:hover { transform:scale(1.05); box-shadow:0 10px 25px rgba(255,0,0,0.6); }
+
+/* Responsivo */
 @media(max-width:768px){ .video-card { max-width:45%; } }
 @media(max-width:480px){ .video-card { max-width:90%; } }
 </style>
@@ -41,6 +54,8 @@ footer a { color:#ff0000; text-decoration:none; margin:0 5px; }
 <p>Discover the ultimate sensual packs, fully private and exclusive</p>
 <a href="#videos" class="btn">Explore Now</a>
 <div class="ani-start"></div>
+<div class="ani-middle"></div>
+<div class="ani-end"></div>
 </header>
 
 <section id="videos" class="video-section">
@@ -49,13 +64,13 @@ footer a { color:#ff0000; text-decoration:none; margin:0 5px; }
 <div class="video-card">
 <h3>Desire</h3>
 <img src="https://files.catbox.moe/imk5d6.jpeg" alt="Desire Preview">
-<a href="https://www.paypal.com/ncp/payment/X4VT4AQVJML64" class="btn">Buy Now</a>
+<a href="https://www.paypal.com/ncp/payment/Y7EBABMK2ZK8N" class="btn">Buy Now</a>
 </div>
 
 <div class="video-card">
 <h3>Father and Daughter</h3>
 <img src="https://files.catbox.moe/gmt95q.jpeg" alt="Father and Daughter Preview">
-<a href="https://www.paypal.com/ncp/payment/N4XWYN9KX4NPU" class="btn">Buy Now</a>
+<a href="https://www.paypal.com/ncp/payment/V22PFBHXGETCE" class="btn">Buy Now</a>
 </div>
 
 <div class="video-card">
@@ -69,56 +84,52 @@ footer a { color:#ff0000; text-decoration:none; margin:0 5px; }
 <div class="video-card">
 <h3>Teen and Dogs</h3>
 <img src="https://files.catbox.moe/t85ks1.jpeg" alt="Teen and Dogs Preview">
-<a href="https://www.paypal.com/ncp/payment/KWWXNSKCGCPZC" class="btn">Buy Now</a>
+<a href="https://www.paypal.com/ncp/payment/X9YRUJBUNTDKQ" class="btn">Buy Now</a>
 </div>
 
 <div class="video-card">
 <h3>CP1</h3>
-<img src="https://files.catbox.moe/maohxi.jpeg" alt="CP1 Preview">
-<a href="https://www.paypal.com/ncp/payment/NT2PRPGJNTSD4" class="btn">Buy Now</a>
+<img src="https://files.catbox.moe/krk5rn.jpeg" alt="CP1 Preview">
+<a href="https://www.paypal.com/ncp/payment/7RW5GVTHMLP8Q" class="btn">Buy Now</a>
 </div>
 
 <div class="video-card">
 <h3>Amateur</h3>
 <img src="https://files.catbox.moe/3u84fj.jpeg" alt="Amateur Preview">
-<a href="https://www.paypal.com/ncp/payment/228PXYYNYYLQW" class="btn">Buy Now</a>
+<a href="https://www.paypal.com/ncp/payment/SCVA6QYYSJRVQ" class="btn">Buy Now</a>
 </div>
 
 <div class="video-card">
 <h3>Young Teens</h3>
 <img src="https://files.catbox.moe/9w9tji.jpeg" alt="Young Teens Preview">
-<a href="https://www.paypal.com/ncp/payment/DQWHPXG5NVQ38" class="btn">Buy Now</a>
+<a href="https://www.paypal.com/ncp/payment/Y93AS4HDEDL76" class="btn">Buy Now</a>
 </div>
 
 <div class="video-card">
 <h3>Incest</h3>
 <img src="https://files.catbox.moe/xn47e1.jpeg" alt="Incest Preview">
-<a href="https://www.paypal.com/ncp/payment/WVESMKQGLYXPY" class="btn">Buy Now</a>
+<a href="https://www.paypal.com/ncp/payment/9D3GNX7E4H6XC" class="btn">Buy Now</a>
 </div>
 
 <div class="video-card">
 <h3>English Teens</h3>
 <img src="https://files.catbox.moe/po1ayd.jpeg" alt="English Teens Preview">
-<a href="https://www.paypal.com/ncp/payment/CV3SHQ6Y636XN" class="btn">Buy Now</a>
+<a href="https://www.paypal.com/ncp/payment/YTHZEBFC47MHW" class="btn">Buy Now</a>
 </div>
-
-<div class="ani-middle"></div>
 
 </section>
 
 <section id="links" style="padding:40px 20px;">
 <h2>Direct Purchase Links</h2>
-<p><a href="https://www.paypal.com/ncp/payment/X4VT4AQVJML64">Desire</a></p>
-<p><a href="https://www.paypal.com/ncp/payment/N4XWYN9KX4NPU">Father and Daughter</a></p>
+<p><a href="https://www.paypal.com/ncp/payment/Y7EBABMK2ZK8N">Desire</a></p>
+<p><a href="https://www.paypal.com/ncp/payment/V22PFBHXGETCE">Father and Daughter</a></p>
 <p><a href="https://www.paypal.com/ncp/payment/PSLX8KUYXCNVA">CP Incest</a></p>
-<p><a href="https://www.paypal.com/ncp/payment/KWWXNSKCGCPZC">Teen and Dogs</a></p>
-<p><a href="https://www.paypal.com/ncp/payment/NT2PRPGJNTSD4">CP1</a></p>
-<p><a href="https://www.paypal.com/ncp/payment/228PXYYNYYLQW">Amateur</a></p>
-<p><a href="https://www.paypal.com/ncp/payment/DQWHPXG5NVQ38">Young Teens</a></p>
-<p><a href="https://www.paypal.com/ncp/payment/WVESMKQGLYXPY">Incest</a></p>
-<p><a href="https://www.paypal.com/ncp/payment/CV3SHQ6Y636XN">English Teens</a></p>
-
-<div class="ani-end"></div>
+<p><a href="https://www.paypal.com/ncp/payment/X9YRUJBUNTDKQ">Teen and Dogs</a></p>
+<p><a href="https://www.paypal.com/ncp/payment/7RW5GVTHMLP8Q">CP1</a></p>
+<p><a href="https://www.paypal.com/ncp/payment/SCVA6QYYSJRVQ">Amateur</a></p>
+<p><a href="https://www.paypal.com/ncp/payment/Y93AS4HDEDL76">Young Teens</a></p>
+<p><a href="https://www.paypal.com/ncp/payment/9D3GNX7E4H6XC">Incest</a></p>
+<p><a href="https://www.paypal.com/ncp/payment/YTHZEBFC47MHW">English Teens</a></p>
 </section>
 
 <footer>
